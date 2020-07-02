@@ -21,8 +21,11 @@ namespace ExamenFinalPOO
             }
         }
 
-        public class ProxyVigilante : ISujeto
+        private class ProxyVigilante : ISujeto
         {
+            internal delegate void MyDelegate();
+            public static MyDelegate employee;
+
             public void Peticion()
             {
 
