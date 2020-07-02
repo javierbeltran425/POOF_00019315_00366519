@@ -27,8 +27,8 @@ namespace ExamenFinalPOO
                     {
                         if (pass == empleado.Contrasenia)
                         {
-                            Administrador AdminView = new Administrador();
-                            AdminView.Show();
+                            Administrador AdminView = new Administrador(principal);
+                            AdminView.Show(principal);
                             principal.Hide();
                         }
                     }

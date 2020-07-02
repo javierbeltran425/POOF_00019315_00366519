@@ -16,5 +16,24 @@ namespace ExamenFinalPOO
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ConnectionBD.ExecuteNonQuery("INSERT INTO USUARIO(idusuario, iddepartamento ,nombre, apellido, dui, contrasenia, fechanacimiento) " +
+                $"VALUES('{textBox5.Text}', '{comboBox1.SelectedValue}', '{textBox1.Text}', '{textBox2.Text}', '{textBox3.Text}', '{textBox6.Text}', '{textBox4.Text}') ");
+        }
+
+        private void AgregarUsuario_Load(object sender, EventArgs e)
+        {
+            PoblarControles();
+        }
+
+        public void PoblarControles()
+        {
+            comboBox1.DataSource = null;
+            comboBox1.ValueMember = "iddepartamento";
+            comboBox1.DisplayMember = "nombre";
+            comboBox1.DataSource = ConsultaDepartamento.getLista();
+        }
     }
 }

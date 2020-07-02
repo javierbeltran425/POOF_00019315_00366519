@@ -9,7 +9,6 @@ C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.exe
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.pdb
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.EliminarUsuario.resources
-C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csprojAssemblyReference.cache
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Empleado.resources
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Administrador.resources
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.VigilanteForm.resources
@@ -35,3 +34,4 @@ C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\bin
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.ValueTuple.xml
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csproj.CopyComplete
+C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csprojAssemblyReference.cache

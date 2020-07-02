@@ -180,6 +180,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Agregar usuario";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabPage2
             // 
@@ -199,6 +200,8 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Administrador";
             this.Text = "Form2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Administrador_FormClosing);
+            this.Load += new System.EventHandler(this.Administrador_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
