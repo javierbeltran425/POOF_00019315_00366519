@@ -1,6 +1,6 @@
 ﻿namespace ExamenFinalPOO
 {
-    partial class Form2
+    partial class Administrador
     {
         /// <summary>
         /// Required designer variable.
