@@ -16,5 +16,14 @@ namespace ExamenFinalPOO
         {
             InitializeComponent();
         }
+
+
+        public void ActGrid()
+        {
+            tableLayoutPanel3.Controls.Remove(dataGridView1);
+            var dt = ConnectionBD.ExecuteQuery("");
+            dataGridView1.DataSource = dt;
+            tableLayoutPanel3.Controls.Add(dataGridView1);
+        }
     }
 }

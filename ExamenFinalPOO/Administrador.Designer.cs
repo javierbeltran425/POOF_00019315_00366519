@@ -39,7 +39,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.agregarUsuario1 = new ExamenFinalPOO.AgregarUsuario();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -152,7 +151,6 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.Controls.Add(this.button2, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.agregarUsuario1, 0, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -193,22 +191,13 @@
             this.tabPage2.Text = "Resúmenes";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // agregarUsuario1
-            // 
-            this.tableLayoutPanel4.SetColumnSpan(this.agregarUsuario1, 2);
-            this.agregarUsuario1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.agregarUsuario1.Location = new System.Drawing.Point(3, 43);
-            this.agregarUsuario1.Name = "agregarUsuario1";
-            this.agregarUsuario1.Size = new System.Drawing.Size(375, 242);
-            this.agregarUsuario1.TabIndex = 2;
-            // 
-            // Form2
+            // Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "Form2";
+            this.Name = "Administrador";
             this.Text = "Form2";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

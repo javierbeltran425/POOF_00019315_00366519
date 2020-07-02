@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ExamenFinalPOO
 {
@@ -10,33 +11,36 @@ namespace ExamenFinalPOO
     {
         public interface ISujeto
         {
-            void Peticion();
+            void Peticion(Usuario empleado, string pass, Form1 principal);
         }
 
-        public class ProxyUsuario : ISujeto
+        public class SistemProxy : ISujeto
         {
-            public void Peticion()
+            public void Peticion(Usuario empleado, string pass, Form1 principal)
             {
+               try
+               {
+                    if (empleado.IdDepartamento.Equals(1))
+                    {
 
-            }
-        }
+                    }else if (empleado.IdDepartamento.Equals(2))
+                    {
+                        if (pass == empleado.Contrasenia)
+                        {
+                            Administrador AdminView = new Administrador();
+                            AdminView.Show();
+                            principal.Hide();
+                        }
+                    }
+                    else if (empleado.IdDepartamento.Equals(3))
+                    {
 
-        private class ProxyVigilante : ISujeto
-        {
-            internal delegate void MyDelegate();
-            public static MyDelegate employee;
-
-            public void Peticion()
-            {
-
-            }
-        }
-
-        public class ProxyGerente : ISujeto
-        {
-            public void Peticion()
-            {
-
+                    }
+               }
+               catch (Exception ex)
+               {
+                     MessageBox.Show("Ha ocurrido un error");
+               }
             }
         }
     }

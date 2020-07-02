@@ -13,7 +13,7 @@ namespace ExamenFinalPOO
         private static string host = "127.0.0.1",
             database = "ParcialFinal",
             userId = "postgres",
-            password = "pimienta";
+            password = "uca";
 
         private static string sConnection = $"Server={host}; Port=5432; User id={userId}; " +
                                             $"Password={password}; Database={database};";
