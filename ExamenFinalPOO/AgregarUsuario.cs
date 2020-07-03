@@ -19,8 +19,19 @@ namespace ExamenFinalPOO
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ConnectionBD.ExecuteNonQuery("INSERT INTO USUARIO(idusuario, iddepartamento ,nombre, apellido, dui, contrasenia, fechanacimiento) " +
+            try
+            {
+                ConnectionBD.ExecuteNonQuery("INSERT INTO USUARIO(idusuario, iddepartamento ,nombre, apellido, dui, contrasenia, fechanacimiento) " +
                 $"VALUES('{textBox5.Text}', '{comboBox1.SelectedValue}', '{textBox1.Text}', '{textBox2.Text}', '{textBox3.Text}', '{textBox6.Text}', '{textBox4.Text}') ");
+
+                MessageBox.Show("Usuario registrado");
+                
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Ha ocurrido un error");
+            }
+            
         }
 
         private void AgregarUsuario_Load(object sender, EventArgs e)

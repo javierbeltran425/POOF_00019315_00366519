@@ -82,6 +82,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Empleado";
             this.Text = "Empleado";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Empleado_FormClosing);
             this.Load += new System.EventHandler(this.Empleado_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

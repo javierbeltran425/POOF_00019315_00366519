@@ -69,6 +69,7 @@ namespace ExamenFinalPOO
         private void Administrador_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = false;
+            princ.PoblarControles();
             princ.Show();
         }
 

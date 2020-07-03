@@ -36,6 +36,11 @@ namespace ExamenFinalPOO
 
         private void EliminarUsuario_Load(object sender, EventArgs e)
         {
+            PoblarControles();
+        }
+
+        public void PoblarControles()
+        {
             comboBox1.DataSource = null;
             comboBox1.ValueMember = "idusuario";
             comboBox1.DisplayMember = "idusuario";

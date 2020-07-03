@@ -33,5 +33,12 @@ namespace ExamenFinalPOO
             dataGridView1.DataSource = dt;
             tableLayoutPanel1.Controls.Add(dataGridView1);
         }
+
+        private void Empleado_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = false;
+            principal.PoblarControles();
+            principal.Show();
+        }
     }
 }

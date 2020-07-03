@@ -79,5 +79,12 @@ namespace ExamenFinalPOO
             comboBox1.DataSource = ConsultaUsuario.getLista();
 
         }
+
+        private void VigilanteForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = false;
+            principal.PoblarControles();
+            principal.Show();
+        }
     }
 }
