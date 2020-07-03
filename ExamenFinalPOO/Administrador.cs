@@ -25,6 +25,8 @@ namespace ExamenFinalPOO
         {
             ActGrid();
             ActGrid2();
+            ActGrid3();
+            ActGrid4();
         }
 
         public void ActGrid()
@@ -58,7 +60,8 @@ namespace ExamenFinalPOO
         public void ActGrid4()
         {
             groupBox3.Controls.Remove(dataGridView4);
-            var dt = ConnectionBD.ExecuteQuery(" ");
+            var dt = ConnectionBD.ExecuteQuery(" SELECT sc.idusuario, sc.entradas FROM (SELECT u.idusuario, count(r.idusuario) as entradas " +
+                "FROM REGISTRO r, USUARIO u WHERE r.idusuario = u.idusuario GROUP BY u.idusuario) AS sc WHERE sc.entradas % 2 != 0 ");
             dataGridView4.DataSource = dt;
             groupBox3.Controls.Add(dataGridView4);
         }
@@ -91,6 +94,7 @@ namespace ExamenFinalPOO
         {
             ActGrid2();
             ActGrid3();
+            ActGrid4();
         }
     }
 }
