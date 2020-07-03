@@ -11,9 +11,9 @@ namespace ExamenFinalPOO
     public static class ConnectionBD
     {
         private static string host = "127.0.0.1",
-            database = "ParcialFinal",
+            database = "ParciallFinal",
             userId = "postgres",
-            password = "uca";
+            password = "pimienta";
 
         private static string sConnection = $"Server={host}; Port=5432; User id={userId}; " +
                                             $"Password={password}; Database={database};";

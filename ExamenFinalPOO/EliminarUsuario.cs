@@ -21,13 +21,8 @@ namespace ExamenFinalPOO
         {
             try
             {
-                string query = $"SELECT idUsuario FROM USUARIO WHERE nombre = '{comboBox1.SelectedValue}'";
 
-                var dt = ConnectionBD.ExecuteQuery(query);
-                var dr = dt.Rows[0];
-                var idUsuario = Convert.ToInt32(dr[0].ToString());
-
-                string nonQuery = $"DELETE FROM USUARIO AND REGISTRO WHERE idUsuario = {idUsuario}";
+                string nonQuery = $"DELETE FROM USUARIO WHERE idUsuario = {comboBox1.SelectedValue}";
 
                 ConnectionBD.ExecuteNonQuery(nonQuery);
 
@@ -43,15 +38,10 @@ namespace ExamenFinalPOO
 
         private void EliminarUsuario_Load(object sender, EventArgs e)
         {
-            var name = ConnectionBD.ExecuteQuery("SELECT idUsuario FROM USUARIO");
-            var nameCombo = new List<string>();
-
-            foreach (DataRow dr in name.Rows)
-            {
-                nameCombo.Add(dr[0].ToString());
-            }
-
-            comboBox1.DataSource = nameCombo;
+            comboBox1.DataSource = null;
+            comboBox1.ValueMember = "idusuario";
+            comboBox1.DisplayMember = "idusuario";
+            comboBox1.DataSource = ConsultaUsuario.getLista();
         }
     }
 }
