@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenFinalPOO
 {
-    class Registro
+    class Departamento
     {
         public int IdDepartamento { get; set; }
         public string Nombre { get; set; }

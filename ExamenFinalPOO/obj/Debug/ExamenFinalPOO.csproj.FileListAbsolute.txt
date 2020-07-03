@@ -35,15 +35,3 @@ C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\bin
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.ValueTuple.xml
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csproj.CopyComplete
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csprojAssemblyReference.cache
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csprojAssemblyReference.cache
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.AgregarUsuario.resources
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.EliminarUsuario.resources
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Empleado.resources
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Form1.resources
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Administrador.resources
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Properties.Resources.resources
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.VigilanteForm.resources
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csproj.GenerateResource.cache
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.exe
-C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.pdb

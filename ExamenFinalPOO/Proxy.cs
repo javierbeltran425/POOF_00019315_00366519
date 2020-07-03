@@ -34,12 +34,6 @@ namespace ExamenFinalPOO
                     }
                     else if (empleado.IdDepartamento.Equals(3))
                     {
-                        if(pass == empleado.Contrasenia)
-                        {
-                            Empleado EmplView = new Empleado();
-                            EmplView.Show(principal);
-                            principal.Hide();
-                        }
 
                     }
                }

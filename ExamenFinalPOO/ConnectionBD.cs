@@ -11,7 +11,7 @@ namespace ExamenFinalPOO
     public static class ConnectionBD
     {
         private static string host = "127.0.0.1",
-            database = "ParciallFinal",
+            database = "ParcialFinal",
             userId = "postgres",
             password = "uca";
 

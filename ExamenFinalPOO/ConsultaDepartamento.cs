@@ -9,16 +9,16 @@ namespace ExamenFinalPOO
 {
     class ConsultaDepartamento
     {
-        public static List<Registro> getLista()
+        public static List<Departamento> getLista()
         {
             string sql = "SELECT * FROM DEPARTAMENTO";
 
             DataTable dt = ConnectionBD.ExecuteQuery(sql);
 
-            List<Registro> lista = new List<Registro>();
+            List<Departamento> lista = new List<Departamento>();
             foreach (DataRow fila in dt.Rows)
             {
-                Registro dp = new Registro();
+                Departamento dp = new Departamento();
                 dp.IdDepartamento = Convert.ToInt32(fila[0].ToString());
                 dp.Nombre = fila[1].ToString();
                 dp.Ubicacion = fila[2].ToString();
