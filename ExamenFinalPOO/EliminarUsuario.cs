@@ -21,7 +21,9 @@ namespace ExamenFinalPOO
         {
             try
             {
+
                 string nonQuery = $"DELETE FROM USUARIO WHERE idusuario = '{comboBox1.SelectedValue}' ";
+
 
                 ConnectionBD.ExecuteNonQuery(nonQuery);
 
