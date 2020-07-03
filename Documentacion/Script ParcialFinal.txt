@@ -1,0 +1,32 @@
+CREATE TABLE DEPARTAMENTO(
+	idDepartamento SERIAL PRIMARY KEY,
+	nombre VARCHAR(50) NOT NULL,
+	ubicacion VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE USUARIO(
+	idUsuario INT PRIMARY KEY,
+	idDepartamento INT NOT NULL,
+	nombre VARCHAR(50) NOT NULL,
+	apellido VARCHAR(50) NOT NULL,
+	dui VARCHAR(15) NOT NULL,
+	contrasenia VARCHAR(25) NOT NULL,
+	fechaNacimiento VARCHAR(100) NOT NULL,
+	CONSTRAINT fk_departamento_usuario
+	FOREIGN KEY (idDepartamento) REFERENCES DEPARTAMENTO (idDepartamento) ON DELETE CASCADE
+);
+
+CREATE TABLE REGISTRO(
+	idRegistro SERIAL PRIMARY KEY,
+	idUsuario INT NOT NULL,
+	entrada BOOLEAN NOT NULL,
+	temperatura double precision NOT NULL,
+	fecha timestamp with time zone NOT NULL DEFAULT now(),
+	CONSTRAINT fk_usuario_registro
+	FOREIGN KEY (idUsuario) REFERENCES USUARIO (idUsuario) ON DELETE CASCADE
+);
+
+
+
+
+

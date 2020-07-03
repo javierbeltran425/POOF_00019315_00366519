@@ -22,6 +22,9 @@ namespace ExamenFinalPOO
                {
                     if (empleado.IdDepartamento.Equals(1))
                     {
+                        VigilanteForm VigView = new VigilanteForm(principal, empleado);
+                        VigView.Show();
+                        principal.Hide();
 
                     }else if (empleado.IdDepartamento.Equals(2))
                     {

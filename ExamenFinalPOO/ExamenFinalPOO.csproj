@@ -85,6 +85,7 @@
     </Compile>
     <Compile Include="ConnectionBD.cs" />
     <Compile Include="ConsultaDepartamento.cs" />
+    <Compile Include="ConsultaRegistro.cs" />
     <Compile Include="ConsultaUsuario.cs" />
     <Compile Include="Departamento.cs" />
     <Compile Include="EliminarUsuario.cs">

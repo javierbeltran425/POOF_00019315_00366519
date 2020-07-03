@@ -35,3 +35,40 @@ C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\bin
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.ValueTuple.xml
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csproj.CopyComplete
 C:\Users\rjbel\Desktop\Universidad\POO\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.AgregarUsuario.resources
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.EliminarUsuario.resources
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Empleado.resources
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Form1.resources
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Administrador.resources
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.Properties.Resources.resources
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.VigilanteForm.resources
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.exe
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.pdb
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\ExamenFinalPOO.exe.config
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\ExamenFinalPOO.exe
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\ExamenFinalPOO.pdb
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\Npgsql.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Buffers.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Memory.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Text.Json.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.ValueTuple.dll
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\Npgsql.pdb
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\Npgsql.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Buffers.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Memory.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Text.Json.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\bin\Debug\System.ValueTuple.xml
+C:\Users\Usuario\Documents\Workspaces POO\Parcial 03\POOF_00019315_00366519\ExamenFinalPOO\obj\Debug\ExamenFinalPOO.csproj.CopyComplete

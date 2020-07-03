@@ -1,0 +1,17 @@
+El patrón de diseño implementado es el patrón Proxy. Este patrón nos permite
+Consideramos que este patrón es más eficiente para este caso ya que permite
+acceder a diferentes métodos entre tres diferentes tipos de objetos (en este
+caso tipos de usuario) : Administrador, vigilante y empleado. A su vez, resulta
+más optimo ya que debemos verificar credenciales de contraseña para cada tipo 
+de usuarios.
+
+Se ha creado una clase llamada Proxy en la cual está anidada una interfza ISujeto
+con una clase SistemProxy que hereda de ISujeto. En SistemProxy es donde se
+implementa el cambio de tipo de usuario. Se verifica al departamento que este 
+pertenece y por medio de un método llamado petición, que se encuentra en SistemProxy,
+se mandan a llamar las diferentes vistas para cada uno. 
+
+El propósito del proxy es verificar las credenciales y realizar el cambio de vista para
+cada tipo de usuario. Ya que el proxy funciona como un intermediario entre el código y
+el usuario, es ideal para realizar estos cambios y funciones para optimizar el código y,
+a su vez, la memoria del programa, ya que el proxy funciona como un tipo de puntero.
