@@ -55,6 +55,13 @@ namespace ExamenFinalPOO
             dataGridView3.DataSource = dt;
             groupBox2.Controls.Add(dataGridView3);
         }
+        public void ActGrid4()
+        {
+            groupBox3.Controls.Remove(dataGridView4);
+            var dt = ConnectionBD.ExecuteQuery(" ");
+            dataGridView4.DataSource = dt;
+            groupBox3.Controls.Add(dataGridView4);
+        }
 
         private void Administrador_FormClosing(object sender, FormClosingEventArgs e)
         {

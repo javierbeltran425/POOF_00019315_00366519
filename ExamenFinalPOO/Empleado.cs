@@ -12,9 +12,26 @@ namespace ExamenFinalPOO
 {
     public partial class Empleado : Form
     {
-        public Empleado()
+        private Form1 principal;
+        private Usuario empleado;
+        public Empleado(Form1 princ, Usuario emp)
         {
             InitializeComponent();
+            principal = princ;
+            empleado = emp;
+        }
+
+        private void Empleado_Load(object sender, EventArgs e)
+        {
+            ActGrid();
+        }
+
+        private void ActGrid()
+        {
+            tableLayoutPanel1.Controls.Remove(dataGridView1);
+            var dt = ConnectionBD.ExecuteQuery($"SELECT * FROM REGISTRO WHERE idusuario = '{empleado.IdUsuario}' ");
+            dataGridView1.DataSource = dt;
+            tableLayoutPanel1.Controls.Add(dataGridView1);
         }
     }
 }

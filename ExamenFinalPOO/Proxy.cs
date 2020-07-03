@@ -28,13 +28,15 @@ namespace ExamenFinalPOO
                         if (pass == empleado.Contrasenia)
                         {
                             Administrador AdminView = new Administrador(principal);
-                            AdminView.Show(principal);
+                            AdminView.Show();
                             principal.Hide();
                         }
                     }
                     else if (empleado.IdDepartamento.Equals(3))
                     {
-
+                        Empleado EmpView = new Empleado(principal, empleado);
+                        EmpView.Show();
+                        principal.Hide();
                     }
                }
                catch (Exception ex)
